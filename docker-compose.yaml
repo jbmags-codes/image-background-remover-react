@@ -1,0 +1,8 @@
+services:
+    vite-react:
+        build: .
+        restart: always
+        ports:
+            - '8004:80'
+        cpus: 0.5 # Max CPU the container can use (half of one core)
+        mem_limit: 64m # Max memory the container can use

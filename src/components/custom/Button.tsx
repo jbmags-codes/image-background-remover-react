@@ -1,6 +1,6 @@
 import { cn } from '@/lib/utils'; // Utility to merge classNames
 import { Loader2 } from 'lucide-react';
-import { ButtonHTMLAttributes, forwardRef } from 'react';
+import { type ButtonHTMLAttributes, forwardRef } from 'react';
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
     variant?: 'solid' | 'faded' | 'bordered' | 'light' | 'flat' | 'ghost';
